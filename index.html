@@ -1,1 +1,437 @@
-<meta http-equiv="refresh" content="0;URL=https://c4.sabae.cc/">
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://c4.sabae.cc/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Code for Sabae （鯖江のために創る部）</title>
+</head><body><xlink rel="apple-touch-icon" href="sabaecc.jpg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="target-densitydpi=middle-dpi, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<!--
+<meta property="og:image" content="https://c4.sabae.cc/codeforsabae-logo2.png">
+-->
+<meta property="og:title" content="ニュース「鯖江シニアITアプリ講座、シニアによる IchigoJam BASIC シビックハッカソン」 - Code for Sabae">
+<meta property="og:url" content="https://c4.sabae.cc/">
+<meta property="og:image" content="https://c4.sabae.cc/img/konenit2014-2-1.jpg">
+
+<meta property="og:site_name" content="Code for Sabae">
+
+
+<xscript src="fukuno.js/fukuno.js"></xscript>
+<xscript src="fukuno.js/help2.js"></xscript>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+	font-size: 80%;
+	font-family: sans-serif;
+}
+h1, h2 {
+	margin: 0;
+	font-size: 125%;
+}
+h2 {
+	padding-bottom: 0.5em;
+}
+a {
+	color: #444 !important;
+}
+.header {
+	background-color: #f9e3e4;
+	color: #211;
+	padding: 20px;
+	background-image: url(code.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	margin-bottom: 10px;
+}
+.footer {
+	background: #333;
+	color: #eee;
+	padding: 20px;
+}
+.footer a {
+	color: #fff !important;
+}
+.box {
+	width: 80%;
+	padding: 20px 20px;
+	background:#FFF;
+	margin: 30px auto;
+}
+.effect1{
+	-webkit-box-shadow: 0 5px 6px 0px #777;
+	   -moz-box-shadow: 0 5px 6px 0px #777;
+	        box-shadow: 0 5px 6px 0px #777;
+}
+
+.effect4 {
+	position: relative;
+}
+.effect4:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	right: 10px;
+	left: auto;
+	width: 50%;
+	top: 80%;
+	max-width:300px;
+	background: #777;
+	-webkit-box-shadow: 0 15px 10px #777;
+	-moz-box-shadow: 0 15px 10px #777;
+	box-shadow: 0 15px 10px #777;
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+#qr {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+	.header {
+		background-image: none;
+		padding: 10px 0px;
+	}
+	.box {
+		width: 85%;
+		margin: 20px auto;
+	}
+	.header h2 {
+		display: block;
+		text-align: center;
+	}
+	.header img {
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+</style>
+
+
+
+<div class="header effect1">
+<img src="img/codeforsabae-logo2.png" width="320" height="134" alt="Code for Sabae / create our lives by ourselves"><br>
+<h2>Code for Sabae - 鯖江のために創る部</h2>
+</div>
+<img id="qr" src="img/code.png" style="position:absolute;top:0px;right: 0px;z-index:2;width:130px;height:130px;">
+
+<div class="box effect4">
+<h2>公開討論スペースオープン！</h2>
+2020.3.1 欲しいオープンデータについて投稿する<a href="https://forum.sabae.cc/">フォーラム</a>をスタートしました<br>
+<a href="https://forum.sabae.cc/"><img src="img/wordpress2.png" width="100%"></a><br>
+</div>
+	
+<div class="box effect4">
+<h2>第五期地域フィールドラボ in 鯖江「受診率向上で健康なまちづくり」</h2>
+2018.10.16開催、地域フィールドラボ（旧名コーポレートフェローシップ）の事業報告会がありました。<br>
+<img src="img/cfsabae2018-02.jpg" width="100%"><br>
+主な成果<br>
+・特定健診・がん検診のウェブ予約の開始<br>
+・保険医療データとAIを用いた<a href="https://www.susmed.co.jp/">サスメド</a>社との共同研究契約の締結<br>
+・Facebookを活用した<a href="https://www.facebook.com/sabaekenko/">健康づくり課</a>による事業の見える化<img src="img/cfsabae2018-08.jpg" width="100%"><br>
+「<a href="https://fukuno.jig.jp/2276">大鵬薬品 x 鯖江市、第5期 Code for Japan 地域フィールドラボ事業報告会 - 現場での恊働とデータが生むイノベーション #sabae #codefor / 福野泰介の一日一創 / Create every day by Taisuke Fukuno</a>」<br>
+「<a href="https://ameblo.jp/hyakuo/entry-12412321350.html">「コード・フォー・ジャパン」地域フィールドラボ事業成果報告会 | 『さばえ.jp』百さんのブログです</a>」<br>
+</div>
+
+<div class="box effect4">
+<h2>障がい者に寄り添うオープンデータ活用・ハッカソン</h2>
+2017.1.14(日)開催、コーポレートフェローシップで来鯖中の富士通、三ツ山さんと共同企画のハッカソン開催！<br>
+<img src="img/sabaehack2018.jpg" width="100%"><br>
+</div>
+
+<div class="box effect4">
+<h2>第四期コーポレートフェローシップ　in 鯖江 に協力します</h2>
+2017.11〜2018.1、第4期の鯖江市Code for Japan コーポレートフェローシップ。<br>
+<img src="img/cfsabae4-1-01.jpg" width="610" height="421"><br>
+コーポレートフェローとして臨時鯖江市職員となった、三ツ山さん（富士通） <a href="http://hanadojo.com/">Hana道場</a><br>
+photo CC BY <a href="https://fukuno.jig.jp/1927">fukuno.jig.jp</a><br>
+「<a href="https://fukuno.jig.jp/1927">富士通 x 鯖江市 x Code for Japan！ 障害者をテーマにスタート「第4期コーポレートフェローシップ in 鯖江」とPython3で市役所スクレイピング</a>」<br>
+</div>
+
+<div class="box effect4">
+<h2>第三期コーポレートフェローシップ　in 鯖江 に協力します</h2>
+2016.11〜2017.1、第3期の鯖江市Code for Japan コーポレートフェローシップ。<br>
+<img src="img/cfjcf3-1-1.jpg" width="610" height="312"><br>
+Yahoo!Japanより廣瀬さんと葛城さん<br>
+photo CC BY <a href="https://fukuno.jig.jp/1562">fukuno.jig.jp</a><br>
+「<a href="https://fukuno.jig.jp/1562">Yahoo!Japanより鯖江に2名！公共交通をテーマに鯖江コーポレートフェローシップ第三期スタート</a>」
+</div>
+
+<div class="box effect4">
+<h2>第二期コーポレートフェローシップ　in 鯖江 に協力します</h2>
+2015年12月から翌年2月までの3ヶ月間、NECソリューションイノベータの石崎さんをCode for Japan コーポレートフェローシップとして鯖江市役所での受け入れ事業がスタートしました。Code for Sabae は地元コードフォーとしてバックアップし任務遂行のサポートをします！<br>
+<img src="img/cfellow2015-1-0.jpg" width="100%"><br>
+photo CC BY <a href="https://fukuno.jig.jp/1225">fukuno.jig.jp</a><br>
+<img src="img/cfellow2015-1-1.jpg" width="100%"><br>
+photo CC BY <a href="https://fukuno.jig.jp/1225">fukuno.jig.jp</a><br>
+</div>
+
+<div class="box effect4">
+<h2>IchigoJamプログラミングスクール開講！</h2>
+スイミングスクールのように誰もが気軽にプログラミングを学べるプログラミングスクールが開校です！<br>
+インターネットやパソコンを理解する近道は、それを形作るソフトウェアの原理、プログラミングを学ぶこと。<br>
+<p></p><p>
+講師は、元福井高専電子情報工学科教授/PCNの蘆田昇氏。<br>
+福井高専でプログラミングを30年以上教えていた大ベテラン。<br>
+</p><p>
+教材は、福井県鯖江市生まれのプログラミング学習用コンピューター、<a href="https://ichigojam.net/" target="_blank">IchigoJam</a>。<br>
+初心者用プログラミング言語として定評あるBASICを使っているので、こどもでもシニアの方でもだれでも簡単にプログラミングを学べます。<br>
+</p><p>
+IchigoJamで学んだ子どもたちは、<a href="https://fukuno.jig.jp/992" target="_blank">稲田朋美政調会長に自作のゲームを披露</a>したり、
+iPhoneアプリの開発言語Swiftを自分で学び、<a href="https://fukuno.jig.jp/1041" target="_blank">大人向けのハッカソンでも審査員特別賞獲得</a>など、大活躍！
+</p><p>
+毎週火曜日、一部 17:00〜17:50<br>
+受講料：子供 1,000円/回（税込） シニア・一般 2,000円/回（税込）<br>
+</p><p>
+<img src="img/ichigojam-school.jpg" width="610" height="334"><br>
+「<a href="https://www.facebook.com/ichigojam.school" target="_blank">IchigoJamプログラミングスクール</a>」
+</p><p>
+<!--
+<style>
+#t1043 th, #t1043 td {
+	border: 1px solid gray;
+	padding: 0.3em;
+	text-align: center;
+}
+</style>
+<table id="t1043">
+	<tr><th></th><th>1部 15:30-16:20<br>50分</th><th>2部 16:30-17:20<br>50分</th><th>3部 17:30-18:20<br>50分</th><th>4部 18:30-19:20<br>50分</th></tr>
+	<tr><th>6/9(火)</th><td>シニア向け1</td><td>子供向け1</td><td>子供向け2</td><td>一般向け1</td></tr>
+	<tr><th>6/16(火)</th><td>シニア向け2</td><td>子供向け2</td><td>子供向け3</td><td>一般向け2</td></tr>
+	<tr><th>6/23(火)</th><td>シニア向け3</td><td>子供向け3</td><td>子供向け4</td><td>一般向け3</td></tr>
+	<tr><th>6/30(火)</th><td>シニア向け4</td><td>子供向け4</td><td>子供向け1</td><td>一般向け4</td></tr>
+</table>
+-->
+主催：<a href="https://pcn.club/" target="_blank">PCN</a> / <a href="http://sabae.club/" target="_blank">Code for Sabae</a><br>
+講師：<a href="https://www.facebook.com/noboru.ashida.9" target="_blank">蘆田昇</a> (元福井高専教授)<br>
+会場：<a href="http://hanadojo.com/">Hana道場</a><br>
+申込：不要（直接会場までお越しください）<br>
+運営：<a href="http://www.l-community.com/" target="_blank">NPO法人エル・コミュニティ</a><br>
+</p><p>
+孫に子供に、プログラミングするきっかけを！<br>
+「<a href="https://fukuno.jig.jp/994" target="_blank">三方良し！こどもプログラミング環境 with シニア</a>」
+</p></div>
+
+<div class="box effect4">
+<h2>「ビッグデータ＆オープンデータ研究会 in 九州」講演記念、AEDナビ（福岡市）</h2>
+<a href="https://c4.sabae.cc/app/opendata/findaed-fukuoka.html">
+<img src="img/findaed-fukuoka.png" width="100%"><br>
+「AEDナビ（福岡市）」</a><br><br>
+<a href="http://www.open-governmentdata.org/" target="_blank">福岡市オープンデータ</a>の<a href="http://ckan.open-governmentdata.org/dataset/aed" target="_blank">AEDオープンデータ</a>を使って、AEDナビを移植しました。５つ星オープンデータで、全世界で使えるようにしたい！
+</div>
+
+<div class="box effect4">
+<h2>鯖江シニアITアプリ講座、シニアによる IchigoJam BASIC シビックハッカソン</h2>
+<img src="img/konenit2014-2-1.jpg" width="100%"><br>
+鯖江市役所、ict4e、jig.jp、Code for Sabae による共同事業。シニアITアプリ講座、IchigoJamを使ったプログラミング教室、第二回目は日常の不満をベースにオリジナルアプリづくりを行いました。個性的な９作のプロトタイプの発表会を開催しました。<a href="https://fukuno.jig.jp/817" target="_blank">詳細はこちら</a> (2014.10.20)<br>
+教材：IchigoJamプログラミングはじめ <a href="http://www.slideshare.net/taisukefukuno/ichigo-jam" target="_blank">その１</a>、<a href="http://www.slideshare.net/taisukefukuno/ichigo-jam-40517351" target="_blank">その２</a>、<a href="http://www.slideshare.net/taisukefukuno/ichigo-jam-40518078" target="_blank">その３</a>
+</div>
+
+<div class="box effect4">
+<h2>コーポレートフェローシップスタート</h2>
+<a href="https://fukuno.jig.jp/806" target="_blank">
+<img src="img/cfjcf-5.jpg" width="100%"><br>
+企業研修x市役所、問題解決力を鍛える地方自治体留学のススメ、世界初コーポレート・フェローシップ(Code for) SAPジャパンx鯖江市トライアルスタート</a><br>
+2014.10.16〜11.30 SAPジャパン社員 奥野さん、鯖江市の職員として常勤！
+</div>
+
+<div class="box effect4">
+<h2>ヒストリー</h2>
+<ul>
+<li>2013.5.10 <a href="https://fukuno.jig.jp/286" target="_blank">１秒でできるオープンデータ、福井県オープンデータキックオフ！</a> - Code for Sabae スタート!</li>
+<li>2013.5.16 <a href="https://fukuno.jig.jp/292" target="_blank">自分たちのまちは自分たちで創る - Code for X のススメ</a></li>
+<li>2013.8.1 <a href="https://fukuno.jig.jp/369" target="_blank">世界中から集まった Code for Sabae ロゴ案56コ by designclue</a></li>
+<li>2013.9.30 <a href="https://fukuno.jig.jp/429" target="_blank">シニアによる Code for Sabae! シニアプログラミング教室</a> - <a href="https://fukuno.jig.jp/389" target="_blank">開催発表</a></li>
+<li>2013.10.2 <a href="https://fukuno.jig.jp/431" target="_blank">シビックプログラマー、期待の市民開発者 / Open Data for Future 感想</a></li>
+<li>2013.10.12 <a href="https://fukuno.jig.jp/442" target="_blank">創ろう！オープンデータで便利な生活</a> - 福井県オープンデータ開始ニュース</li>
+<li>2013.10.17 <a href="https://fukuno.jig.jp/446" target="_blank">ITS世界会議、オープンデータでつながる新しい交通と生活</a></li>
+<li>2013.10.31 <a href="https://fukuno.jig.jp/460" target="_blank">WIRED CONFERENCE オープンガバメントで創ろう豊かな社会</a></li>
+<li>2013.11.6 <a href="https://fukuno.jig.jp/467" target="_blank">まずは使ってみる！行政職員向けオープンデータ・SNS勉強会</a></li>
+<li>2013.11.25 <a href="https://fukuno.jig.jp/486" target="_blank">みんなで創る社会、オープンデータのススメ スライド公開！</a></li>
+<li>2013.12.8 <a href="https://fukuno.jig.jp/499" target="_blank">地味ゲー好きな小学生という光 - Code for Sabae ご縁市プログラミング体験</a> / <a href="https://fukuno.jig.jp/492" target="_blank">告知</a></li>
+<li>2013.12.12 <a href="https://fukuno.jig.jp/503" target="_blank">なぜ今デザイナーにプログラミングなのか？ P4D in FUKUI 開催レポート</a> / <a href="https://fukuno.jig.jp/501" target="_blank">CSEDWEEK告知</a></li>
+<li>2013.12.24 <a href="https://fukuno.jig.jp/515" target="_blank">シビックソウルに火をつけよう！社会作りを市民の手に取り戻す - Civic Tech Advent Calendar 2013</a></li>
+<li>2014.1.14 <a href="https://fukuno.jig.jp/536" target="_blank">まずは自分のために！ Code for myself のススメ - 舞鶴高専にて講演</a></li>
+<li>2014.2.14 <a href="https://fukuno.jig.jp/569" target="_blank">もしエンジニアがまちづくりをしたら？Codeがつなぐ地域と地域 - デブサミ2014</a></li>
+<li>2014.2.18 <a href="https://fukuno.jig.jp/573" target="_blank">「学生とオープンデータ」共通の魅力、多摩市議来鯖「らてんぽ」にて</a></li>
+<li>2014.2.24 <a href="https://fukuno.jig.jp/579" target="_blank">鯖江市、全国自治体初のW3C加盟発表！</a></li>
+<li>2014.3.14 <a href="https://fukuno.jig.jp/597" target="_blank">高専エンジニアがつなぐ横と縦、Code for KOSEN ４つの実績</a></li>
+<li>2014.3.17 <a href="https://fukuno.jig.jp/600" target="_blank">「ともに考え、ともにつくる」ICTでつながる人</a> - 読売ICTフォーラム2014</li>
+<li>2014.4.26 <a href="https://fukuno.jig.jp/640" target="_blank">データシティ鯖江で開催、電脳メガネARアプリコンテスト公開審査会・表彰式レポート</a></li>
+<li>2014.6.10 <a href="https://fukuno.jig.jp/685" target="_blank">The world as one island 地球というひとつの島国 Global ICT Summit 世界ICTサミット</a></li>
+<li>2014.6.21 <a href="https://fukuno.jig.jp/696" target="_blank">見えるのに見ていない世界とオープンデータ、車座ふるさとトーク in 鯖江</a> 総務省松本政務官来鯖</li>
+<li>2014.7.12 <a href="https://fukuno.jig.jp/717" target="_blank">空席センサーオープンデータのつくりかた、JK課発、図書館アプリ「sabota」の舞台裏</a></li>
+<li>2014.8.23 <a href="https://fukuno.jig.jp/759" target="_blank">禅ハッカソンin鯖江(前編) アイデア創出編</a> / <a href="https://fukuno.jig.jp/760" target="_blank">禅ハッカソンin鯖江(後編) 観光防災教育生活xウェアラブル発表編</a></li>
+<li>2014.9.22 <a href="https://fukuno.jig.jp/789" target="_blank">シニアアプリのたね、不満一覧オープンデータ / シニア x Code for Sabae / 高年大学ITアプリ講座シーズンII</a></li>
+<li>2014.9.30 <a href="https://fukuno.jig.jp/797" target="_blank">快適な事故ゼロ交通を考える！デンソー x SAPジャパン x 鯖江 要の200日を迎える西山公園道の駅</a></li>
+<li>2014.10.4 <a href="https://fukuno.jig.jp/801" target="_blank">官民一体で考えるバス快適化アプリ 公共交通オープンデータハッカソン in 鯖江 レポート Code for Shiga / Biwoko &amp; Code for Sabae</a></li>
+<li>2014.10.7 <a href="https://fukuno.jig.jp/804" target="_blank">地域をアドホックつなぐ Code for Chiba x Sabae、避難所ナビアプリ（千葉市版）</a></li>
+<li>2014.10.9 <a href="https://fukuno.jig.jp/806" target="_blank">企業研修x市役所、問題解決力を鍛える地方自治体留学のススメ、世界初コーポレート・フェローシップ(Code for) SAPジャパンx鯖江市トライアルスタート</a></li>
+<li>2014.10.10 <a href="https://fukuno.jig.jp/807" target="_blank">シニアから始まるコードフォー、共同創作作業が盛り上がったIchoJamシニアプログラミング教室</a></li>
+</ul>
+</div>
+
+<!--
+<div class="box effect4">
+<a href=http://code4japan.org/ target=_blank>
+<img src=codeforjapan-logo.png width=235 height=104 style="float:right"></a>
+日本に広がる Code for X が集結して、デブサミで講演！(2014.2.14)<br>
+「<a href=http://event.shoeisha.jp/devsumi/20140213/session/432/ target=_blank>Developers Summit 2014：【14-D-7】シビックテック・ワールドツアー ～ホワイトハウスを始めとする世界事例から、鯖江、金沢、会津、石巻まで～</a>」しました<br>
+- <a href=http://aizu.io/ target=_blank>Code for Aizu</a><br>
+- <a href=http://www.codeforkanazawa.org/ target=_blank>Code for Kanazawa</a><br>
+- <a href=http://ishinomaki2.com/category/project2/itonav/ target=_blank>イトナブ (Code for Ishinomaki 準備中？)</a><br>
+- <a href=https://c4.sabae.cc/ target=_blank>Code for Sabae</a><br>
+</div>
+-->
+
+<div class="box effect4">
+<h2>みんなでつくろう</h2>
+<p>
+ソフトバンクモバイル＆鯖江市＆jig.jp＆Code for Sabae 共同企画<br>
+iPadを使って、鯖江市内を中心に、みんなで写真を撮ってアルバムとアプリを作成しました。<br>
+「<a href="https://c4.sabae.cc/progrun/albumlist.html">アルバムをみる</a>」
+「<a href="https://c4.sabae.cc/progrun/applist.html">アプリをみる</a>」
+「<a href="https://c4.sabae.cc/progrun/">アプリをつくる</a>」<br>
+<a href="https://c4.sabae.cc/progrun/">
+<img src="img/progrun.jpg" width="360" height="258"><br>
+（データシティ鯖江の鯖江百景を背景にも、アプリが創れます！）
+</a>
+</p><p>
+鯖江に関するアプリを紹介します。<br>
+「<a href="https://fukuno.jig.jp/2013/datacitysabae">福野泰介の一日一創、鯖江編</a>」
+「<a href="http://www.city.sabae.fukui.jp/pageview.html?id=12767">福井県鯖江市＞アプリケーション（オープンデータによる）</a>」
+</p><p>
+こどもパソコン <a href="http://ichigojam.net/" target="_blank">IchigoJam</a><br>
+<a href="https://fukuno.jig.jp/807" target="_blank">シニア向けプログラミング講師づくり教室も開催！</a>
+</p>
+</div>
+
+<div class="box effect4">
+<h2>オープンデータ都市マップ</h2>
+<p>
+<iframe src="img/opendatamap.html" width="100%" height="430px"></iframe>
+<!--
+<a href=https://fukuno.jig.jp/2013/opendatamap target=_blank>
+<img src=opendatacitymap.png width=100%>
+</a>
+-->
+</p>
+</div>
+
+<!--
+<div class="box effect4">
+<h2>リアルタイム位置情報共有ツール（テスト）</h2>
+<p>
+鯖江の市営バス、つつじバスのようにリアルタイムに変化する位置情報を使ったアプリを気軽に実現するためのテストアプリをつくってみました。ひとまず電池の持ちを優先して、1分置きに更新するものでテスト中です。近日GooglePlayへの掲載と、共有APIを公開しようと思います。お楽しみに！
+</p><p>
+<img src=https://c4.sabae.cc/locoshare-ss1.png width=270 height=480>
+</p><p>
+2013.5.18 23:00:00 by 福野泰介 <a href=https://fukuno.jig.jp/>https://fukuno.jig.jp/</a>
+</p>
+</div>
+-->
+
+<div class="box effect4">
+<h2>自分たちのまちは自分たちで創る - Code for X のススメ</h2>
+<p>
+「自分たちのまちは自分たちで創る」という精神で始まった、Code for America。その動きが各地で広まっています。今後はそれぞれの連携が重要かつ、おもしろくなります。
+</p><p></p><p>
+CODEとはプログラムを書くこと（コーディング）を意味しています。とはいえ、プログラマーに限らず、ソフトウェアを創るためには、データを集める人、アイデアを出す人、デザインする人、プロモーションする人、実際使ってみて意見を言う人など、幅広い人の参加が必要となります。前人未到の複雑な世の中へと突き進む現代社会に置ける課題解決は、まさに人類の総力戦として挑む必要があります。
+</p><p>
+ある場所で成果を上げたソフトウェアは、他の場所でも成果を上げます。お互いの成果を示しあい、相互に利用し、切磋琢磨することで、課題解決スピードをどんどん上げていきましょう。
+</p><p>
+第一歩は、身近にある問題認識から。ぜひみなさんの町でも、Code for X はじめて見ませんか？
+</p><p>
+Code for X リスト <a href="https://c4.sabae.cc/codeforx.xml">[RSS2.0]</a><br>
+</p><ul>
+<li><a href="http://codeforamerica.org/">Code for America</a></li>
+<li><a href="http://codeforeurope.net/">Code for Europe</a></li>
+<li><a href="http://www.meetup.com/Code-for-Boston/">Code for Boston</a></li>
+<li><a href="http://code4japan.org/">Code for Japan</a></li>
+<li><a href="https://c4.sabae.cc/">Code for Sabae</a></li>
+<li><a href="http://www.codeforkanazawa.org/">Code for Kanazawa</a></li>
+<!--
+<li><a href=http://codeforjapan.seesaa.net/>codeforjapan</a></li>
+<li><a href=http://wiki.livedoor.jp/retz_home/d/Code%20for%20Japan%A5%D7%A5%ED%A5%B8%A5%A7%A5%AF%A5%C8
+>Code for Japanプロジェクト - 藤沢烈 公式ウェブサイト - Seesaa Wiki（ウィキ）</a></li>
+<li><a href=http://kenchif.wordpress.com/2012/07/08/%E8%A1%8C%E6%94%BF%E3%81%A8%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%8F%96%E3%82%8A%E7%B5%84%E3%81%BF%EF%BC%9Acode-for-kanazawa%E3%82%92%E5%AE%9F%E7%8F%BE/>行政とエンジニアの新しい取り組み：code for Kanazawaを実現してみたい | kenchif@Happy Hacking</a></li>
+-->
+</ul>
+<p></p><p>
+2013.5.16 21:25:00 by 福野泰介 <a href="https://fukuno.jig.jp/">https://fukuno.jig.jp/</a>
+</p>
+</div>
+
+<div class="box effect4">
+<h2>data</h2>
+<ul>
+<li><a href="https://fukuno.jig.jp/223">福井県によるPM25情報の勝手WebAPI版（毎時更新）</a></li>
+<li><a href="http://www.city.sabae.fukui.jp/pageview.html?id=11552">福井県鯖江市＞Dataシティさばえ（XML化の推進）</a><br>
+（観光、トイレ、避難所、AED、施設、WiFi、さばえ検定、人口、気温、公式RSS、駐車場、議員名簿、文化財、西山動物園、つつじバス、提案型事業、古地図、道路工事、消火栓、農産物直売所、他）
+</li>
+<li><a href="http://linkdata.org/work/rdf1s137i">鯖江バリアフリーマップ｜オープンデータ共有＆ダウンロード｜LinkData</a></li>
+</ul>
+</div>
+
+<div class="box effect4">
+<h2>application</h2>
+<ul>
+<li><a href="https://c4.sabae.cc/volgamap.html">越前市民間オープンデータ開始記念！ボルガライスマップ</a></li>
+<li><a href="https://c4.sabae.cc/arukossa.html">坂井市オープンデータ開始記念！歩こっさ！さかい</a></li>
+<li><a href="https://fukuno.jig.jp/254">鯖江市の人口動態のビジュアライゼーション</a></li>
+<li><a href="https://fukuno.jig.jp/265">さばえブランド大使の住所別ランキング</a></li>
+<li><a href="https://fukuno.jig.jp/227">鯖江のPM25時計</a></li>
+<li><a href="https://fukuno.jig.jp/2012/syokasen">近所の消火栓</a></li>
+<li><a href="https://fukuno.jig.jp/2012/localgiin">市議一覧</a></li>
+<li><a href="https://fukuno.jig.jp/2012/busmonitor">つつじバスモニター</a></li>
+<li><a href="https://fukuno.jig.jp/2012/bustimetable">バス時刻表</a></li>
+<li><a href="https://fukuno.jig.jp/2012/busdelay">バス遅れチェッカー</a></li>
+<li><a href="https://fukuno.jig.jp/2012/nishiyamazoo">西山動物園ごはんの時間</a></li>
+<li><a href="https://fukuno.jig.jp/2012/tiledphoto">市保有文化財のタイル表示</a></li>
+<li><a href="https://fukuno.jig.jp/2012/findaed">AED検索</a></li>
+<li><a href="https://fukuno.jig.jp/2012/findwc">トイレ徒歩ナビ</a></li>
+<li><a href="https://fukuno.jig.jp/2012/wifisabae">WiFiマップ</a></li>
+<li><a href="https://fukuno.jig.jp/2012/sabaewalk">徒歩観光ナビ</a></li>
+</ul>
+</div>
+
+<div class="box effect4">
+<h2>game</h2>
+<ul>
+<li><a href="https://fukuno.jig.jp/2012/sabae15">激ムズ観光15パズル</a></li>
+<li><a href="https://fukuno.jig.jp/2012/lunchslot">ランチスロット</a></li>
+<li><a href="https://fukuno.jig.jp/2012/kamaslot">釜蔵 - 釜飯スロット</a></li>
+<li><a href="https://fukuno.jig.jp/2012/sabae15">激ムズ観光15パズル</a></li>
+<li><a href="https://fukuno.jig.jp/2012/sabaeq">さばえ検定2012</a></li>
+<li><a href="https://fukuno.jig.jp/2012/sabamekuri">観光地で神経衰弱</a></li>
+<li><a href="https://fukuno.jig.jp/2012/seekmind">お店カードでエスパー度測定</a></li>
+<li><a href="https://fukuno.jig.jp/2012/focusquiz">ここはどこかな？</a></li>
+</ul>
+</div>
+
+
+<div class="box effect4">
+<h2>join</h2>
+<ul>
+<li>
+Code for Sabae （鯖江のために創る部 / create our lives by ourselves）に参加してみませんか？ご興味ある方は、どなたでもお気軽にどうぞ！アイデアだけ、デザインだけ、使ってみたいだけでも大歓迎！<br>
+お申し込みは、こちらのFacebookグループまで<br>
+<a href="https://www.facebook.com/groups/647245521957288/">Code for Sabae - Facebookグループ</a>
+</li>
+</ul>
+</div>
+
+<div class="footer">
+紹介用ロゴ画像: <a href="https://c4.sabae.cc/data/logo/CODE_FOR_SABAE-logo.png">PNG画像</a>, <a href="https://c4.sabae.cc/data/logo/CODE_FOR_SABAE-logo.ai">イラストレーターaiファイル</a><br>
+License: CC BY <a href="https://c4.sabae.cc/">Code for Sabae</a><br>
+</div>
+
+
+
+</xlink></body></html>
